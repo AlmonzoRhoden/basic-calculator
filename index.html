@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./style.css'>
+    <title>Almonzo's | Basic Calculator</title>
+</head>
+
+<body>
+    <main>
+        <h2>Almonzo's Basic Calculator</h2> <br>
+
+        <form>
+            Value 1: <input type='text' id='value1'> <br> <br>
+            Value 2: <input type='text' id='value2'> <br> <br>
+            Operator:
+            <select id='operator'>
+            <option value='add'>Add</option>
+            <option value='min'>Minus</option>
+            <option value='mul'>Multiply</option>
+            <option value='div'>Divide</option>
+            </select> <br>  <br>
+            <button type ='button' onclick = 'calc()'>Calculate</button>
+        </form>
+
+         <br>
+        <div id = 'result'></div>
+
+        <script src='./script.js'></script>
+
+    </main>
+</body>
+
+</html>

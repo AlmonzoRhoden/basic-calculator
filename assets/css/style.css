@@ -1,0 +1,11 @@
+*{
+    box-sizing:border-box;
+    margin: 0 auto;
+}
+
+main{
+    text-align: center;
+    background-color: chartreuse;
+    border: 1px solid black;
+    width:66%;
+}
