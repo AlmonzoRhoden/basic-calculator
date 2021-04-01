@@ -1,4 +1,4 @@
-<h2 align = 'center'> basic-calculator </h2>
+<h2 align = 'center'> basic-calculator</h2>
 
 <h2> Preview of application </h2>
 
